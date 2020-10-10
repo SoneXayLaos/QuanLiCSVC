@@ -1,0 +1,71 @@
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe.config
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.pdb
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.DangNhap.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.Properties.Resources.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.TrangChu.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.GenerateResource.cache
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CoreCompileInputs.cache
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.exe
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.pdb
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucCSVC.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucHV.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhSachSuaChua.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormPass1.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaiKhoan.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaoMoiDanhSachSuaChua.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormLichCongTac.resources
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.dll
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.dll
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.xml
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.xml
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CopyComplete
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csprojAssemblyReference.cache
+D:\LapTrinhC#\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormCapMoi.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe.config
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.pdb
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.dll
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.xml
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csprojAssemblyReference.cache
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.DangNhap.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormCapMoi.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucCSVC.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucHV.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhSachSuaChua.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormLichCongTac.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormPass1.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaiKhoan.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaoMoiDanhSachSuaChua.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.Properties.Resources.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.TrangChu.resources
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.GenerateResource.cache
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CoreCompileInputs.cache
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CopyComplete
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.exe
+D:\Github\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.pdb
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe.config
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.exe
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\QuanLyCSVCDaiDoi.pdb
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.dll
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.xml
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.DangNhap.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormCapMoi.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucCSVC.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhMucHV.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormDanhSachSuaChua.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormLichCongTac.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormPass1.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaiKhoan.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.FormTaoMoiDanhSachSuaChua.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.Properties.Resources.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.TrangChu.resources
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.GenerateResource.cache
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CoreCompileInputs.cache
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.csproj.CopyComplete
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.exe
+D:\Tai lieu\QuanLyCSVCDaiDoi\QuanLyCSVCDaiDoi\obj\Debug\QuanLyCSVCDaiDoi.pdb
