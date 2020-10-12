@@ -27,5 +27,20 @@ namespace QuanLyCSVCDaiDoi
             InitializeComponent();
         }
 
-        
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            TrangChu tc = new TrangChu();
+            this.Hide();
+            tc.Show();
+        }
+
+        private void btnTaoMoi_Click(object sender, EventArgs e)
+        {
+            FormTaoMoiDanhSachSuaChua f = new FormTaoMoiDanhSachSuaChua();
+            this.Hide();
+            f.Show();
+        }
+
+      
+       
 }
