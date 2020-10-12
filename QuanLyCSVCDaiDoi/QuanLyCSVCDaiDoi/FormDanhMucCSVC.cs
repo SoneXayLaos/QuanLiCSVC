@@ -21,7 +21,7 @@ namespace QuanLyCSVCDaiDoi
 
         private void FormDanhMucCSVC_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'quanLyCSVCDaiDoiDataSet.LoaiCSVC' table. You can move, or remove it, as needed.
+           
             this.loaiCSVCTableAdapter.Fill(this.quanLyCSVCDaiDoiDataSet.LoaiCSVC);
             while (dgvDanhSach.Rows.Count != 0)
             {
@@ -192,7 +192,7 @@ namespace QuanLyCSVCDaiDoi
                 }
             }
         }
-
+        //nut cap nhat
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
             if (txtGhiChu.Text.Trim() == "" || txtTenCSVC.Text.Trim() == "" || txtTinhTrang.Text.Trim() == "" || txtGhiChu.Text.Trim() == "" || cbLoaiCSVC.Text.Trim() == "")
