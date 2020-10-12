@@ -18,7 +18,7 @@ namespace QuanLyCSVCDaiDoi
 {
     public partial class FormTaoMoiDanhSachSuaChua : Form
     {
-        private SqlConnection ketNoiCSDL = new SqlConnection(@"Data Source=PC;Initial Catalog=QuanLyCSVCDaiDoi;Integrated Security=True");
+        private SqlConnection ketNoiCSDL = new SqlConnection(@"Data Source=DESKTOP-SAU51IQ;Initial Catalog=QuanLyCSVCDaiDoi;Integrated Security=True");
         string currentIDtimkiem = "";
         string currentIDSuaChua = "";
         int idLichSuaChua = 0;
@@ -186,7 +186,6 @@ namespace QuanLyCSVCDaiDoi
             dgvKetQuaTimKiem.Columns[3].Width = 80;
             Load2();
         }
-
         public void Load2()
         {
             Random rd = new Random();
