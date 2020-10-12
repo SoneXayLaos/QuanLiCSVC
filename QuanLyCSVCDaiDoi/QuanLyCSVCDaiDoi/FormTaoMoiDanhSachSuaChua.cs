@@ -169,7 +169,24 @@ namespace QuanLyCSVCDaiDoi
 
         }
 
-  
+        private void FormTaoMoiDanhSachSuaChua_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            ketNoiCSDL.Open();
+            SqlCommand command = new SqlCommand("sp_LoadDSVatChat", ketNoiCSDL);
+            command.CommandType = CommandType.StoredProcedure;
+            SqlDataReader read = command.ExecuteReader();
+            dt.Load(read);
+            ketNoiCSDL.Close();
+
+            dgvKetQuaTimKiem.DataSource = dt;
+            dgvKetQuaTimKiem.RowHeadersVisible = false;
+            dgvKetQuaTimKiem.Columns[0].Width = 40;
+            dgvKetQuaTimKiem.Columns[1].Width = 40;
+            dgvKetQuaTimKiem.Columns[3].Width = 80;
+            Load2();
+        }
+
 
     }
 
