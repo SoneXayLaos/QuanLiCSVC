@@ -112,7 +112,64 @@ namespace QuanLyCSVCDaiDoi
             COMExcel.ExportDTToCOMExcelChiTietDanhSach(dt, idLichSuaChua.ToString(), "1// Nguyễn Quốc Nhân", DateTime.Today.ToString());
         }
 
+        private void txtMaCSVC_TextChanged(object sender, EventArgs e)
+        {
+            if (txtMaCSVC.Text != "" && txtMaCSVC.Text != null)
+            {
+                DataTable dt = new DataTable();
+                ketNoiCSDL.Open();
+                SqlCommand command = new SqlCommand("sp_TimKiemMaDSSC", ketNoiCSDL);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@maVC", SqlDbType.Int).Value = Int32.Parse(txtMaCSVC.Text);
+                SqlDataReader read = command.ExecuteReader();
+                dt.Load(read);
+                ketNoiCSDL.Close();
+                if (dt.Rows.Count > 0)
+                    dgvKetQuaTimKiem.DataSource = dt;
+            }
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "" && textBox1.Text != null)
+            {
+                DataTable dt = new DataTable();
+                ketNoiCSDL.Open();
+                SqlCommand command = new SqlCommand("sp_TimKiemTenDSVC", ketNoiCSDL);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@tenVC", SqlDbType.NVarChar).Value = textBox1.Text;
+                SqlDataReader read = command.ExecuteReader();
+                dt.Load(read);
+                ketNoiCSDL.Close();
+                if (dt.Rows.Count > 0)
+                    dgvKetQuaTimKiem.DataSource = dt;
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox2.Text != "" && textBox2.Text != null)
+            {
+                DataTable dt = new DataTable();
+                ketNoiCSDL.Open();
+                SqlCommand command = new SqlCommand("sp_TimKiemSoPhong", ketNoiCSDL);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@soPhong", SqlDbType.Int).Value = Int32.Parse(textBox2.Text);
+                SqlDataReader read = command.ExecuteReader();
+                dt.Load(read);
+                ketNoiCSDL.Close();
+                if (dt.Rows.Count > 0)
+                    dgvKetQuaTimKiem.DataSource = dt;
+            }
+        }
+
+        private void dgvKetQuaTimKiem_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+  
 
     }
 
