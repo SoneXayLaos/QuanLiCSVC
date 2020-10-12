@@ -186,6 +186,25 @@ namespace QuanLyCSVCDaiDoi
             dgvKetQuaTimKiem.Columns[3].Width = 80;
             Load2();
         }
+        public void Load2()
+        {
+            Random rd = new Random();
+            idLichSuaChua = rd.Next();
+            ketNoiCSDL.Open();
+            SqlCommand command = new SqlCommand("sp_ThemMoiLichSC", ketNoiCSDL);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.Add("@idLich", SqlDbType.Int).Value = idLichSuaChua;
+            command.ExecuteNonQuery();
+            ketNoiCSDL.Close();
+            lbID.Text = idLichSuaChua.ToString();
+        }
+
+        private void dgvKetQuaTimKiem_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btnThem.Enabled = true;
+            currentIDtimkiem = dgvKetQuaTimKiem.CurrentRow.Cells[0].Value.ToString();
+        }
+
 
 
     }
