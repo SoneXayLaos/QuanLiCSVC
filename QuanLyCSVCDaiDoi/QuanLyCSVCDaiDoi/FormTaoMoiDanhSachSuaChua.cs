@@ -205,7 +205,26 @@ namespace QuanLyCSVCDaiDoi
             currentIDtimkiem = dgvKetQuaTimKiem.CurrentRow.Cells[0].Value.ToString();
         }
 
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            DialogResult rd = MessageBox.Show("Bạn có chắc chắn muốn hủy Danh sách này không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (rd == DialogResult.Yes)
+            {
+                ketNoiCSDL.Open();
+                SqlCommand command = new SqlCommand("sp_XoaLichSC", ketNoiCSDL);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@idLich", SqlDbType.Int).Value = idLichSuaChua;
+                command.ExecuteNonQuery();
+                ketNoiCSDL.Close();
+                DataTable t = new DataTable();
+                dgvDanhSachSuaChua.DataSource = t;
+            }
+        }
 
+        private void dgvDanhSachSuaChua_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            currentIDSuaChua = dgvDanhSachSuaChua.CurrentRow.Cells[1].Value.ToString();
+        }
 
     }
 
