@@ -72,7 +72,7 @@ namespace QuanLyCSVCDaiDoi
         {
 
         }
-
+        //sonxay lao
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
             TrangChu tc = new TrangChu();
