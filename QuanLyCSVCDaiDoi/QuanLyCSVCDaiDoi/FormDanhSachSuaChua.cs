@@ -41,6 +41,27 @@ namespace QuanLyCSVCDaiDoi
             f.Show();
         }
 
-      
+        private void FormDanhSachSuaChua_Load(object sender, EventArgs e)
+        {
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("STT", typeof(int));
+            ketNoiCSDL.Open();
+            SqlCommand command = new SqlCommand("sp_LoadDSLichSuaChua", ketNoiCSDL);
+        
+            command.CommandType = CommandType.StoredProcedure;
+
+            SqlDataReader read = command.ExecuteReader();
+            dt.Load(read);
+            ketNoiCSDL.Close();
+            int i = 1;
+            foreach (DataRow row in dt.Rows)
+            {
+                row["STT"] = i++;
+            }
+            dgvDanhSach.DataSource = dt;
+            dgvDanhSach.RowHeadersVisible = false;
+        }
+
        
 }
