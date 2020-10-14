@@ -73,7 +73,27 @@ namespace QuanLyCSVCDaiDoi
             COMExcel.ExportDTToCOMExcelChiTietDanhSach(dt, currentIDLich, "1// Nguyễn Quốc Nhân", DateTime.Today.ToString());
         }
 
-       
+        private void dgvDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            currentIDLich = dgvDanhSach.CurrentRow.Cells[0].Value.ToString();
+            
+            ketNoiCSDL.Open();
+            DataTable dt = new DataTable();
+            dt.Columns.Add("STT", typeof(int));
+            SqlCommand command = new SqlCommand("sp_ThongTinDSCS", ketNoiCSDL);
+            command.Parameters.Add("@idLich", SqlDbType.Int).Value = Int32.Parse(currentIDLich);
+            command.CommandType = CommandType.StoredProcedure;
+            SqlDataReader read = command.ExecuteReader();
+            dt.Load(read);
+            ketNoiCSDL.Close();
+            int i = 1;
+            foreach (DataRow row in dt.Rows)
+            {
+                row["STT"] = i++;
+            }
+            dgvChiTietDanhSach.DataSource = dt;
+            btnInRa.Enabled = true;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -83,5 +103,5 @@ namespace QuanLyCSVCDaiDoi
         }
     }
 
-   
+    
 }
