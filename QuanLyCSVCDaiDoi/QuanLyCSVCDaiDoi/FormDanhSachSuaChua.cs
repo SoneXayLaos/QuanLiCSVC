@@ -63,5 +63,25 @@ namespace QuanLyCSVCDaiDoi
             dgvDanhSach.RowHeadersVisible = false;
         }
 
+        private void btnInRa_Click(object sender, EventArgs e)
+        {
+            Excel COMExcel = new Excel();
+
+            DataTable dt = new DataTable();
+            dt = (DataTable)dgvChiTietDanhSach.DataSource;
+
+            COMExcel.ExportDTToCOMExcelChiTietDanhSach(dt, currentIDLich, "1// Nguyễn Quốc Nhân", DateTime.Today.ToString());
+        }
+
        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCapMoi f = new FormCapMoi();
+            this.Hide();
+            f.Show();
+        }
+    }
+
+   
 }
