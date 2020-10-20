@@ -33,7 +33,7 @@ namespace QuanLyCSVCDaiDoi
             SqlCommand command = new SqlCommand("sp_DangNhapTaiKhoan", ketNoiCSDL);
 
             command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.Add("@tendangnhap", SqlDbType.VarChar).Value = tbTenDangNhap.Text;
+            command.Par0ameters.Add("@tendangnhap", SqlDbType.VarChar).Value = tbTenDangNhap.Text;
             command.Parameters.Add("@matkhau", SqlDbType.VarChar).Value = tbMatKhau.Text;
             SqlDataReader read = command.ExecuteReader();
             dt.Load(read);
@@ -81,7 +81,23 @@ namespace QuanLyCSVCDaiDoi
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            //int i = 0;
+            //if(tbTenDangNhap.Text == "admin" && tbMatKhau.Text == "1")
+            //{
+            //    TrangChu tc = new TrangChu();
+            //    this.Hide();
+            //    tc.Show();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Nhập sai thông tin");
+            //    i++;
+            //    if (i == 3)
+            //    {
+            //        MessageBox.Show("Nhập sai quá 3 lần");
+            //        this.Close();
+            //    }
+            //}
         }
     }
 }
