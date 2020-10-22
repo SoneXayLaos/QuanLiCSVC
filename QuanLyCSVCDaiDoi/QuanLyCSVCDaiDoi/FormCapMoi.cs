@@ -19,12 +19,12 @@ namespace QuanLyCSVCDaiDoi
 
         private void label10_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("test");
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("ok!");
         }
 
         private void button1_Click(object sender, EventArgs e)
