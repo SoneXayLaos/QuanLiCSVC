@@ -135,5 +135,10 @@ namespace QuanLyCSVCDaiDoi
             this.Hide();
             tc.Show();
         }
+
+        private void txtHocVien_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
