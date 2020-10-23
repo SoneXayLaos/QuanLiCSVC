@@ -62,7 +62,14 @@ namespace QuanLyCSVCDaiDoi
             dgvDanhSach.DataSource = dt;
             dgvDanhSach.RowHeadersVisible = false;
         }
-
+        private void Clear()
+        {
+            txtMACSVC.Text = "";
+            txtTenCSVC.Text = "";
+            txtTinhTrang.Text = "";
+            cbLoaiCSVC.Text = "";
+            txtGhiChu.Text = "";
+        }
         private void btnInRa_Click(object sender, EventArgs e)
         {
             Excel COMExcel = new Excel();

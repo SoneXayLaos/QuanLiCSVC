@@ -21,7 +21,7 @@ namespace QuanLyCSVCDaiDoi
 
         private void FormDanhMucCSVC_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'quanLyCSVCDaiDoiDataSet.LoaiCSVC' table. You can move, or remove it, as needed.
+           
             this.loaiCSVCTableAdapter.Fill(this.quanLyCSVCDaiDoiDataSet.LoaiCSVC);
             while (dgvDanhSach.Rows.Count != 0)
             {
@@ -47,11 +47,32 @@ namespace QuanLyCSVCDaiDoi
             cbLoaiCSVC.Text = "";
             txtGhiChu.Text = "";
         }
+        private void dgvDanhSach(object sender, DataGridViewCellEventArgs e)
+        {
+            currentIDLich = dgvDanhSach.CurrentRow.Cells[0].Value.ToString();
+
+            ketNoiCSDL.Open();
+            DataTable dt = new DataTable();
+            dt.Columns.Add("STT", typeof(int));
+            SqlCommand command = new SqlCommand("sp_ThongTinDSCS", ketNoiCSDL);
+            command.Parameters.Add("@idLich", SqlDbType.Int).Value = Int32.Parse(currentIDLich);
+            command.CommandType = CommandType.StoredProcedure;
+            SqlDataReader read = command.ExecuteReader();
+            dt.Load(read);
+            ketNoiCSDL.Close();
+            int i = 1;
+            foreach (DataRow row in dt.Rows)
+            {
+                row["STT"] = i++;
+            }
+            dgvChiTietDanhSach.DataSource = dt;
+            btnInRa.Enabled = true;
+        }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
-
+        //sonxay lao
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
             TrangChu tc = new TrangChu();
@@ -192,7 +213,7 @@ namespace QuanLyCSVCDaiDoi
                 }
             }
         }
-
+        //nut cap nhat
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
             if (txtGhiChu.Text.Trim() == "" || txtTenCSVC.Text.Trim() == "" || txtTinhTrang.Text.Trim() == "" || txtGhiChu.Text.Trim() == "" || cbLoaiCSVC.Text.Trim() == "")
