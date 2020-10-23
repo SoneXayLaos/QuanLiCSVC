@@ -37,6 +37,7 @@ namespace QuanLyCSVCDaiDoi
             FormDanhSachSuaChua f = new FormDanhSachSuaChua();
             this.Hide();
             f.Show();
+           // MessageBox.Show("ok!");
         }
     }
 }

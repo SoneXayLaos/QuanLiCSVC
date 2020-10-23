@@ -266,6 +266,7 @@
             this.txtMaCT.Name = "txtMaCT";
             this.txtMaCT.Size = new System.Drawing.Size(156, 29);
             this.txtMaCT.TabIndex = 53;
+            this.txtMaCT.TextChanged += new System.EventHandler(this.txtMaCT_TextChanged);
             // 
             // label5
             // 

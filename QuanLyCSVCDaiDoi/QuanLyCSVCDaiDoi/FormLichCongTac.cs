@@ -140,5 +140,10 @@ namespace QuanLyCSVCDaiDoi
         {
 
         }
+
+        private void txtMaCT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
