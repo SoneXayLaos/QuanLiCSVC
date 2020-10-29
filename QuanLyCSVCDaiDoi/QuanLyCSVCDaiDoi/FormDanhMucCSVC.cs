@@ -22,21 +22,21 @@ namespace QuanLyCSVCDaiDoi
         private void FormDanhMucCSVC_Load(object sender, EventArgs e)
         {
            
-            this.loaiCSVCTableAdapter.Fill(this.quanLyCSVCDaiDoiDataSet.LoaiCSVC);
-            while (dgvDanhSach.Rows.Count != 0)
-            {
-                dgvDanhSach.Rows.RemoveAt(0);
-            }
-            var list = db.DanhMucCSVCs.Where(x => x.TenVC != null).ToList();
-            foreach (var item in list)
-            {
-                dgvDanhSach.Rows.Add(item.TenVC, item.LoaiCSVC.TenLoai, item.SoPhong, item.TinhTrang, item.GhiChu, item.ID);
-            }
-            var listLoai = db.LoaiCSVCs.Where(x => x.TenLoai != null).ToList();
-            foreach (var item in listLoai)
-            {
-                cbLoaiCSVC.Items.Add(item.TenLoai);
-            }
+            //this.loaiCSVCTableAdapter.Fill(this.quanLyCSVCDaiDoiDataSet.LoaiCSVC);
+            //while (dgvDanhSach.Rows.Count != 0)
+            //{
+            //    dgvDanhSach.Rows.RemoveAt(0);
+            //}
+            //var list = db.DanhMucCSVCs.Where(x => x.TenVC != null).ToList();
+            //foreach (var item in list)
+            //{
+            //    dgvDanhSach.Rows.Add(item.TenVC, item.LoaiCSVC.TenLoai, item.SoPhong, item.TinhTrang, item.GhiChu, item.ID);
+            //}
+            //var listLoai = db.LoaiCSVCs.Where(x => x.TenLoai != null).ToList();
+            //foreach (var item in listLoai)
+            //{
+            //    cbLoaiCSVC.Items.Add(item.TenLoai);
+            //}
         }
 
         private void Clear()
@@ -49,24 +49,24 @@ namespace QuanLyCSVCDaiDoi
         }
         private void dgvDanhSach(object sender, DataGridViewCellEventArgs e)
         {
-            currentIDLich = dgvDanhSach.CurrentRow.Cells[0].Value.ToString();
+            //currentIDLich = dgvDanhSach.CurrentRow.Cells[0].Value.ToString();
 
-            ketNoiCSDL.Open();
-            DataTable dt = new DataTable();
-            dt.Columns.Add("STT", typeof(int));
-            SqlCommand command = new SqlCommand("sp_ThongTinDSCS", ketNoiCSDL);
-            command.Parameters.Add("@idLich", SqlDbType.Int).Value = Int32.Parse(currentIDLich);
-            command.CommandType = CommandType.StoredProcedure;
-            SqlDataReader read = command.ExecuteReader();
-            dt.Load(read);
-            ketNoiCSDL.Close();
-            int i = 1;
-            foreach (DataRow row in dt.Rows)
-            {
-                row["STT"] = i++;
-            }
-            dgvChiTietDanhSach.DataSource = dt;
-            btnInRa.Enabled = true;
+            //ketNoiCSDL.Open();
+            //DataTable dt = new DataTable();
+            //dt.Columns.Add("STT", typeof(int));
+            //SqlCommand command = new SqlCommand("sp_ThongTinDSCS", ketNoiCSDL);
+            //command.Parameters.Add("@idLich", SqlDbType.Int).Value = Int32.Parse(currentIDLich);
+            //command.CommandType = CommandType.StoredProcedure;
+            //SqlDataReader read = command.ExecuteReader();
+            //dt.Load(read);
+            //ketNoiCSDL.Close();
+            //int i = 1;
+            //foreach (DataRow row in dt.Rows)
+            //{
+            //    row["STT"] = i++;
+            //}
+            //dgvChiTietDanhSach.DataSource = dt;
+            //btnInRa.Enabled = true;
         }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
