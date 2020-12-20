@@ -75,9 +75,9 @@ namespace QuanLyCSVCDaiDoi
         //sonxay lao
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
-            TrangChu tc = new TrangChu();
-            this.Hide();
-            tc.Show();
+            //TrangChu tc = new TrangChu();
+            //this.Hide();
+            //tc.Show();
         }
 
         private void dgvDanhSach_CellContentClick(object sender, DataGridViewCellEventArgs e)
