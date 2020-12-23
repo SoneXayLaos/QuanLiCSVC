@@ -41,11 +41,11 @@ namespace QuanLyCSVCDaiDoi
 
         private void Clear()
         {
-            txtMACSVC.Text = "";
-            txtTenCSVC.Text = "";
-            txtTinhTrang.Text = "";
-            cbLoaiCSVC.Text = "";
-            txtGhiChu.Text = "";
+            //txtMACSVC.Text = "";
+            //txtTenCSVC.Text = "";
+            //txtTinhTrang.Text = "";
+            //cbLoaiCSVC.Text = "";
+            //txtGhiChu.Text = "";
         }
         private void dgvDanhSach(object sender, DataGridViewCellEventArgs e)
         {
