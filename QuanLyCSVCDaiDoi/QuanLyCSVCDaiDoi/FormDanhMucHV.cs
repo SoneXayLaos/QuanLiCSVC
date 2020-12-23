@@ -21,6 +21,7 @@ namespace QuanLyCSVCDaiDoi
 
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
+            int a;
             TrangChu tc = new TrangChu();
             this.Hide();
             tc.Show();
